@@ -8,13 +8,9 @@ Goals
 
 
 
-\-Learning version control in software development.
+Learning version control in software development.
 
-\-Building project portfolio.
+Building project portfolio.
 
-\-Learning, interacting and building with a community of like minded developers. 
-
-
-
-
+Learning, interacting and building with a community of like minded developers.
 
