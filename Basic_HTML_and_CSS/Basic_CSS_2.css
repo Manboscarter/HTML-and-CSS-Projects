@@ -1,0 +1,13 @@
+p {
+    color: green;
+    background-color: lightgray;
+    font-size: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+footer {
+    text-shadow: 2px 1px black;
+
+}
