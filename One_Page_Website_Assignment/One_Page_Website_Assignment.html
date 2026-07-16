@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lag="en">
+
+<head>
+    <title>Africa | Continent</title>
+    <meta data="utf-8">
+    <style>
+        .foot {
+            text-align: center;
+        }
+
+        .img {
+            width: 600px;
+            height: 400px;
+        }
+
+        .ul_nav {
+            list-style-type: none;
+            background-color: green;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+        }
+
+        body {
+            margin: 0px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .li {
+            float: left;
+        }
+
+        .link {
+            display: block;
+            padding: 14px 16px;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .link:hover {
+            background-color: tomato;
+        }
+
+        .h1,
+        h2,
+        h3,
+        p,
+        img,
+        ul,
+        li,
+        header {
+            margin: 10px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .gallery-item {
+            margin: 5px;
+            border: 2px solid tomato;
+            border-radius: 12px;
+            background-color: rgb(162, 190, 162);
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+
+
+
+
+        }
+
+        .gallery-item img,
+        iframe {
+            width: 300px;
+            height: 400px;
+
+        }
+
+        .h1,
+        h2,
+        h3,
+        header {
+            color: rgb(21, 151, 123);
+
+        }
+
+        input[type=text],
+        input[type=Email],
+        input[type=Password] {
+            width: 15%;
+            border: 2px solid green;
+            border-radius: 8px;
+            padding: 5px;
+            display: block;
+            margin: 0px 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--Nav-->
+
+    <nav>
+
+        <ul class="ul_nav">
+            <li class="li"> <a href="#" class="link">Home</a></li>
+            <li class="li"> <a href="#gallery " class="link">Gallery</a></li>
+            <li class="li"> <a href="#contact " class="link">Contact</a></li>
+        </ul>
+
+    </nav>
+    <!--End of Nav-->
+
+
+    <!--Header-->
+    <header>
+        <h1> Africa's Industrial Future</h1>
+        <h3> Harnessing the Potential of People, Culture, and Nature</h3>
+    </header>
+    <p>Africa is rapidly emerging as an industrialized continent,
+        with many nations looking inward to unlock the immense potential
+        of their citizens and natural resources. One of the most promising sectors
+        driving this transformation is tourism. Rich in cultural heritage,
+        breathtaking landscapes, diverse wildlife, and vibrant traditions,
+        Africa is positioning itself as a world-class tourism destination while
+        creating jobs, promoting local businesses, and stimulating economic growth.</p>
+    <!--End of header-->
+    <!--Tourism-->
+    <section>
+        <div>
+            <h3>
+                A Catalyst for Industrial Growth
+            </h3>
+            <p>
+                Tourism is more than just travel—it is a powerful economic engine that
+                supports multiple industries. As visitors explore Africa's unique
+                attractions, they contribute to the growth of hospitality,
+                transportation, agriculture, entertainment, construction, and
+                manufacturing.
+                <br>
+                <br>
+
+                By investing in tourism infrastructure such as hotels,
+                airports, roads, national parks, museums, and cultural
+                centers, African countries are building sustainable industries
+                that generate income for millions of people. These developments
+                also encourage local production of goods and services, reducing
+                reliance on imports while strengthening domestic economies.
+            </p>
+        </div>
+
+    </section>
+    <!--End of tourism section-->
+
+
+
+    <!--Showcasing-->
+    <section>
+        <div>
+            <h3> Showcasing Africa's Rich Heritage</h3>
+            <p>
+                Africa is home to some of the world's most extraordinary
+                natural and cultural treasures. From majestic mountains
+                and pristine beaches to ancient civilizations and diverse
+                wildlife, every region offers unique experiences for travelers.
+                <br>
+                <br>
+
+                Visitors can enjoy:
+            </p>
+            <ul>
+                <li>Wildlife safaris and national parks.</li>
+                <li>Historical monuments and UNESCO World Heritage Sites.</li>
+                <li>Cultural festivals and traditional ceremonies.</li>
+                <li>Adventure tourism and eco-tourism.</li>
+                <li>Coastal resorts and island destinations.</li>
+                <li>Culinary experiences featuring authentic African cuisine.</li>
+            </ul>
+            <p>
+                These attractions not only bring international visitors
+                but also encourage domestic tourism, allowing Africans to
+                discover and appreciate the beauty of their own continent.
+            </p>
+        </div>
+    </section>
+    <br>
+
+    <!--End of showcasing-->
+    <!--Gallery-->
+    <section>
+        <h3 id="gallery" style="text-align: center;">Gallery</h3>
+
+        <div class="gallery">
+
+            <div class="gallery-item">
+
+                <p>Zambia</p>
+                <img src="./images/Thumbs/thumbnail_1_Zambia.jpg" alt="zambia" class="img">
+
+
+            </div>
+
+
+            <div class="gallery-item">
+
+
+                <p>Nigeria</p>
+                <img src="./images/Thumbs/thumbnail_9_Nigeria.jpg" alt="Nigeria" class="img">
+
+
+            </div>
+
+            <!--Video-->
+
+            <div class="gallery-item">
+
+                <p>Zambia</p>
+                <iframe width="610" height="400" src="https://www.youtube.com/embed/81WdRlLAfmw">
+                </iframe>
+
+            </div>
+
+            <div class="gallery-item">
+
+                <p>Nigeria</p>
+                <iframe width="610" height="400" src="https://www.youtube.com/embed/NJT5HiOANLo">
+                </iframe>
+
+            </div>
+
+        </div>
+        <!--End of video-->
+    </section>
+    <!--End of gallery-->
+    <!--form-->
+    <div>
+        <h3 id="contact">Contact</h3>
+        <form action="" method="get">
+            First Name:<input type="text" name="First_Name"><br>
+            <br>
+
+            Last Name:<input type="text" name="Last_Name"><br>
+            <br>
+
+            Email:<input type="email" name="Email"><br>
+            <br>
+
+            Password:<input type="password" name="Password"><br>
+            <br>
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+    <!--End of form-->
+    <footer class="foot">
+        <div>
+            <p>&copy;Africa-Continential | 2026</p>
+            <p>&#9993;Email: Africa-continental@africa.org</p>
+            <p>&#9990;+353988884444</p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
