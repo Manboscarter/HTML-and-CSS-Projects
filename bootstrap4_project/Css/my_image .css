@@ -1,0 +1,32 @@
+
+/* image under showtimetimes section*/
+.my-image {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+/*height of showtime  all movie listed div container*/
+.height {
+    height:200px;
+   
+}
+
+/* height of oldtown and portland and now playing div container*/
+.height2 {
+    height:340px;
+    
+}
+
+/*more spacing for the showtime margin div container*/
+.more-space {
+
+    margin-top: 150px;
+   
+}
+/*image for the oldtown div container*/
+.my-image2 {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
