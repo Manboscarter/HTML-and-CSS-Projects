@@ -4,7 +4,8 @@
 <head>
     <title>Africa | Continent</title>
     <meta charset="utf-8">
-    
+    <link rel="stylesheet"  href="./one_page_website.css">
+
 
 </head>
 
@@ -105,8 +106,8 @@
 
             <div class="gallery-item">
 
-                <p>Zambia</p>
-                <img src="./images/Thumbs/thumbnail_1_Zambia.jpg" alt="zambia" class="img">
+                <h3>Zambia</h3>
+                <img src="./Thumbs_2/thumbnail_1_Zambia.jpg" alt="zambia" class="img">
 
 
             </div>
@@ -115,8 +116,8 @@
             <div class="gallery-item">
 
 
-                <p>Nigeria</p>
-                <img src="./images/Thumbs/thumbnail_9_Nigeria.jpg" alt="Nigeria" class="img">
+                <h3>Nigeria</h3>
+                <img src="./Thumbs_2/thumbnail_9_Nigeria.jpg" alt="Nigeria" class="img">
 
 
             </div>
@@ -125,7 +126,7 @@
 
             <div class="gallery-item">
 
-                <p>Zambia</p>
+                <h3>Zambia</h3>
                 <iframe width="610" height="400" src="https://www.youtube.com/embed/81WdRlLAfmw">
                 </iframe>
 
@@ -133,7 +134,7 @@
 
             <div class="gallery-item">
 
-                <p>Nigeria</p>
+                <h3>Nigeria</h3>
                 <iframe width="610" height="400" src="https://www.youtube.com/embed/NJT5HiOANLo">
                 </iframe>
 
@@ -144,19 +145,33 @@
     </section>
     <!--End of gallery-->
     <!--form-->
-    <div>
+    <div class="contact-form">
+        <div class="contact-heading">
         <h3 id="contact">Contact</h3>
+        </div>
         <form action="" method="get">
-            First Name:<input type="text" name="First_Name"><br>
+
+           <label for ="fname">First Name</label>
+             
+             <input type="text" name ="first_name"><br>
+            <br>
+    
+
+
+              <label for ="lname">Last Name</label>
+              
+              <input type="text" name="last_name">
+              <br>
+              <br>
+
+            <label for ="emai">Email</label>
+            <input type="email" name="email">
+            <br>
             <br>
 
-            Last Name:<input type="text" name="Last_Name"><br>
-            <br>
-
-            Email:<input type="email" name="Email"><br>
-            <br>
-
-            Password:<input type="password" name="Password"><br>
+              <label for ="pword">Password</label>
+              <input type="password" name="password">
+              <br>
             <br>
             <input type="submit" value="Submit">
 
