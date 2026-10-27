@@ -1,0 +1,33 @@
+
+
+.video_design {
+    position: relative;
+    color: white;
+     width: 50%;
+    display: flex;
+    margin-left: 35%;
+ 
+
+    
+
+}
+
+
+.topp_left{
+    
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    width: 50%;
+
+}
+
+.bottomm_right {
+    position: absolute;
+    bottom: 20px;
+    right: 60px;
+    width: 50%;
+
+}
+
+
