@@ -160,11 +160,14 @@ section {
     background-attachment: fixed;
 background-size: cover;
    width: 100%;
-   display:block;
+   display: lock;
    height: auto;
    padding-top: 350px; /*This is spacer befor the main title logo*/
    padding-bottom: 500px;/* This is the spacer a=fter the main title logo*/
    color: #fff;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-bacground-size: cover;
 
 }
 
@@ -208,8 +211,8 @@ background-size: cover;
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
-    padding:10px;
-    border-radius:8px;
+    padding: 10px;
+    border-radius: 8px;
     margin: 0px auto;
     background-color: rgba(100, 65,0,.3);
     box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
@@ -255,14 +258,14 @@ background-size: cover;
 
 
 }
-.reservation p {
+.reservation_text {
 
     color: #13161b;
-    width: 50px;
+    width: 50%;
     margin: 0 auto; 
 }
 
-.reservation form {
+.reservation_form {
     font-size: 15px;
     outline: none;
     font-weight: 600;
@@ -346,14 +349,15 @@ font-size: 18px;
 transition: border-color 0.3s, color 0.3s, background-color 0.3s; 
 border-radius: 7px; 
 background-color:green;
-box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3)
+box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
+
 }
 
 
 .submit input[type="submit"]:hover {
     color: #000;
     background-color:tomato;
-    box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5)
+    box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);
 
 }
 
@@ -362,7 +366,7 @@ box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3)
 background-color: rgba(0, 0, 0, 0.3);
 color: #000;
 text-shadow: 2px 2px 8px 0 rgba(0,0,0,1);
-padding: 20px 50px 20 px 50px;
+padding: 20px 50px 20px 50px;
 text-align:right;
 
 }
